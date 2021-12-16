@@ -11,7 +11,7 @@ First, add a `.npmrc` file with the following content:
 ```
 
 Then install:
-`npm i -S @neilblaze/isOnline`
+`npm i -S @neilblaze/isonline`
 
 ## Usage
 
