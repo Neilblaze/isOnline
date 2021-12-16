@@ -1,0 +1,44 @@
+{
+  "name": "@neilblaze/isOnline",
+  "author": "Pratyay Banerjee",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "Check if a user is online or not",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "deploy": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neilblaze/isOnline.git"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "keywords": [
+    "online",
+    "check",
+    "user",
+    "status",
+    "npm",
+    "isOnline"
+  ],
+  "publishConfig": {
+    "@neilblaze:registry": "https://npm.pkg.github.com"
+  },
+  "bugs": {
+    "url": "https://github.com/neilblaze/isOnline/issues"
+  },
+  "homepage": "https://github.com/neilblaze/isOnline#readme"
+}
